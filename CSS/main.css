@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.main {
+    width: 100%;
+    height: 470px;
+    display: block;
+    margin: 0 auto;
+}
+
+.boyut {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slick-slide {
+    margin: 0 10px;
+    display: none;
+    float: left;
+    height: auto;
+    min-height: 1px;
+    position: relative;
+}
+
+.slider-img{
+    position: absolute;
+    z-index: 2;
+    color: black;
+   top: 220px;
+   left: 60px;
+   width: 80%;
+   height: 27%;
+}
+
+.slider-img .slider-header{
+    position: relative;
+    z-index: 3;
+    top: 50px;
+    color: rgb(222, 70, 121);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+}
+.slider-img .slider-description{
+    position:relative;
+    z-index: 3;
+    top: 55px;
+    margin: 10px 0px 12px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.contents{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid lightgrey;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.container .inner-contents{
+    width: 100%;
+    height: 480px;
+}
+
+.contents .inner-contents img{
+    width: 100%;
+    height: 480px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.contents .content-header{
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.contents .content-header h3{
+    color: orange;
+    margin-bottom: 10px;
+}
+.contents .content-header .content-border{
+    border-bottom: 1px solid gray;
+    width: 95%;
+    margin-top: 15px;
+}
+
+.contents .content-document{
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(142, 139, 139);
+    line-height:30px;
+}
+
+.section{
+    width: 99%;
+    height: 500px;
+    background-color: lavender;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 10px;
+}
+
+.section .resim img{
+    height: 500px;
+}
+
+.section .menu{
+    display: inline-block;
+    height: 70px;
+    font-size: 50px;
+    margin-bottom: 100px;
+    padding:40px;
+    border: 5px dotted lightslategray;
+    text-align: center;
+    margin-top: 185px;
+    color: lightslategray;
+}
+
+.contact{
+    width: 100%;
+    
+    margin-top: 10px;
+}
+.property{
+    width: 20%;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.main-side{
+    display: block;
+    float: left;
+    width: 100%;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.map{margin-left: 10px;
+margin-top: 10px;
+}
+
+iframe{
+    margin-top: 20px;
+}
+
+.side-header{
+    margin-right: 260px;
+    margin-bottom: 10px;
+}
